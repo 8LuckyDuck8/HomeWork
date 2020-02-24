@@ -1,4 +1,4 @@
-package com.Work2;
+package com.WORK2;
 
 public class Task2 {
     public static void main(String[] args) {
