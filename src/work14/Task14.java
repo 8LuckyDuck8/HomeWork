@@ -1,11 +1,14 @@
 package work14;
 
+import java.util.Scanner;
+
 public class Task14 {
     public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
         int marks[] = new int [20];
         for(int i = 0 ; i < 20 ;i++){
-            marks[i] = (int)(Math.random()*10 + 1);
-            System.out.print(marks[i] + " " );
+            System.out.print("Введите mark[" + i + "] :" );
+            marks[i] = in.nextInt();
         }
         System.out.println();
         int maxMark = marks[0];
