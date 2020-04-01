@@ -1,11 +1,14 @@
 package work10;
 
+import java.util.Scanner;
+
 public class Task10 {
     public static void main(String[] args) {
         int a = 0 ;
         int sum = 0;
         int b = 0;
-        int x = (int)(Math.random() * 1000);
+        Scanner in = new Scanner(System.in);
+        int x = in.nextInt();
         a = x;
         do{
             b = x % 10;
