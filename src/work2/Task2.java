@@ -1,8 +1,11 @@
 package work2;
 
+import java.util.Scanner;
+
 public class Task2 {
     public static void main(String[] args) {
-        int s = 800000;
+        Scanner in =  new Scanner(System.in);
+        int s = in.nextInt();
         int sec ;
         int m;
         int min , h , hours, d , days , week;
