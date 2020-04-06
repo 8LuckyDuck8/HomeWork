@@ -1,7 +1,7 @@
 package work21;
 
 
-public class task21 {
+public class Task21 {
     public static void main(String[] args) {
         String str = "";
         StringBuilder strBuilder = new StringBuilder();

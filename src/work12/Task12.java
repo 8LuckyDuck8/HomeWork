@@ -1,8 +1,12 @@
 package work12;
 
+import java.util.Scanner;
+
 public class Task12 {
     public static void main(String[] args) {
-        int k = 1234245369;
+        Scanner in = new Scanner(System.in);
+        System.out.print("Введите число: ");
+        int k = in.nextInt();
         int m = 0;
         m = k;
         String g  = "";
