@@ -4,7 +4,7 @@ import java.sql.SQLOutput;
 
 public class Task19 {
     public static void main(String[] args) {
-        String str = "   asgag  . ;sagasg : !asgas ? test    ? sagasgas asgf ";
+        String str = "   asgag  . ;sagasg : !asgas ? test    ? sagasgas asgf sgasgsgas ";
         str = str.replaceAll("\\p{P}", " ");
         int n = 0;
         char symbol;
